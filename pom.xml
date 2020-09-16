@@ -124,7 +124,7 @@
          <warFile>target\petclinic.war</warFile>
          <path>/petclinic</path>
          <username>admin</username>
-        <password>t0mcat00</password>
+        <password>tomcat00</password>
          </configuration>
      </plugin>  
       <plugin>
