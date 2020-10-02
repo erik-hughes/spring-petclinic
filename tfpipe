@@ -7,11 +7,11 @@
  }
 
 
- Run terraform init
+// Run terraform init
  stage ('Provision') {
    node {
         sh 'terraform init'
         sh 'terraform plan -out=plan'
-        sh 'terraform apply plan'
+        //sh 'terraform apply plan'
        }
      }
